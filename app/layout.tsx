@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     description:
       "Experienced and innovative Full-Stack Developer with a passion for crafting exceptional web applications.",
     url: "https://www.seekvisualartist.com/",
-    siteName: "www.seekvisualartist.com",
+    siteName: "EraOfAce",
     images: [
       {
         url: "./public/metadata.jpg",
