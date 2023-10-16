@@ -2,7 +2,6 @@
   "name": "eraoface",
   "version": "5.0.0",
   "private": true,
-  "homepage": "https://eraoface.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "SET NODE_ENV=production & next build",
