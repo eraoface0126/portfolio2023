@@ -1,7 +1,7 @@
-import Link from "next/link";
+import React from "react";
+// import Link from "next/link";
 import { motion } from "framer-motion";
 import AnimatedBody from "../animations/AnimatedBody";
-import React from "react";
 
 const Footer = () => (
   <motion.section
@@ -13,15 +13,15 @@ const Footer = () => (
       <AnimatedBody text={"© EraOfAce 2023"} className={"m-0 p-0"} />
       <div className="flex flex-col sm:flex-row sm:gap-1 md:gap-2">
         <AnimatedBody text={"Design & Deployed by"} className={"m-0 p-0"} />
-        <Link
+        {/* <Link
           href="https://github.com/nuIIpointerexception"
           target="_blank"
           aria-label="EraOfAce's GitHub Profile"
-        >
-          <span className="underline underline-offset-2 hover:no-underline">
-            <AnimatedBody text={"EraOfAce"} className={"m-0 p-0"} />
-          </span>
-        </Link>
+        > */}
+        <span className="underline underline-offset-2 hover:no-underline">
+          <AnimatedBody text={"EraOfAce"} className={"m-0 p-0"} />
+        </span>
+        {/* </Link> */}
       </div>
     </motion.div>
   </motion.section>
